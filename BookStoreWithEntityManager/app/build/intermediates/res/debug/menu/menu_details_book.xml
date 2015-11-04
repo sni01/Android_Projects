@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.stevens.cs522.BookstoreWithEntityManager.activities.DetailsBookActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item
+        android:id="@+id/details_cancel"
+        android:title="@string/cancel"
+        />
+</menu>
+<!-- From: file:/Users/nisha0634/Documents/522/week4/Assignment4/BookStoreWithEntityManager/app/src/main/res/menu/menu_details_book.xml -->

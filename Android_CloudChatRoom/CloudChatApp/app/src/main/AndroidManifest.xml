@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.stevens.cs522.cloudchatapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activities.PreferenceActivity"
+            android:label="PreferenceActivity" >
+        </activity>
+        <activity
+            android:name=".activities.Client"
+            android:label="Client" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".providers.MessageProvider"
+            android:authorities="edu.stevens.cs522.cloudchatapp"
+            android:exported="false" />
+
+        <service
+            android:name=".services.RequestService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ActiveClientActivity"
+            android:label="@string/title_activity_active_client" >
+        </activity>
+
+        <receiver android:name=".activities.Client$AlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.action.intent.PROVIDER_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.ClientMessage"
+            android:label="@string/title_activity_client_message" >
+        </activity>
+
+        <activity
+            android:name=".activities.ChatRoomMessageActivity"
+            android:label="@string/title_activity_active_client" >
+        </activity>
+
+        <service android:name=".services.FetchAddressIntentService"
+                 android:exported="false"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cab_delete" android:title="Delete"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/cab_cancel"
+        android:title="@string/cancel"
+        />
+</menu><!-- From: file:/Users/nisha0634/Documents/522/week4/Assignment4/BookStoreWithEntityManager/app/src/main/res/menu/contextual_action_bar_menu.xml -->

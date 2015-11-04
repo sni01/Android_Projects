@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--portrait version of fragments -->
+    <fragment
+        android:name="edu.stevens.cs522.cloudchatapp.fragments.ChatRoomListFragment"
+        android:id="@+id/client_chat_room_list_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <!--<fragment
+        android:id="@+id/clientMainPortMessageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" /> -->
+
+</LinearLayout>

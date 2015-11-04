@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/checkout"
+        android:icon="@drawable/ic_menu_btn_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/checkout" />
+    <item
+        android:id="@+id/cancel"
+        android:icon="@drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/cancel" />
+</menu><!-- From: file:/Users/nisha0634/Documents/522/week4/Assignment4/BookStoreWithEntityManager/app/src/main/res/menu/checkout_mean.xml -->

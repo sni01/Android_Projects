@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.stevens.cs522.cloudchatapp.activities.ActiveClientActivity">
+    <item android:id="@+id/client_activity" android:title="@string/main_client_activity"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

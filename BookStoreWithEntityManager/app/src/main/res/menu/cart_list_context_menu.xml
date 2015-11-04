@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/delete" />
+    <item
+        android:id="@+id/detail"
+        android:icon="@drawable/ic_menu_btn_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/details" />
+
+    <item
+        android:id="@+id/cancel"
+        android:icon="@drawable/ic_menu_btn_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/cancel" />
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <TextView
+        android:id = "@+id/book_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:id = "@+id/book_author"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        />
+</LinearLayout>
+<!-- From: file:/Users/nisha0634/Documents/522/week4/Assignment4/BookStoreWithEntityManager/app/src/main/res/layout/simple_list_item_2.xml -->
